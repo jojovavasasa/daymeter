@@ -1,2 +1,3 @@
 @echo off
-powershell -NoExit -Command "ollama pull llama2:7b"
+start /wait powershell -Command "ollama pull llama2:7b"
+python -m pip install SpeechRecognition pyaudio
